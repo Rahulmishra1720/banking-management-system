@@ -48,7 +48,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: cornflowerblue;">
     <div style="font-family: 'Gabriela', serif;   font-size: 40px;
         text-align: center;
         margin: 20px;
@@ -103,7 +103,7 @@
 
     <nav id="sideNav">
         <ul>
-            <li><a href="main.html">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li><a href="users.php">OUR CUSTOMERS</a></li>
             <li><a href="history.php">TRANSACTION HISTORY</a></li>
             <li><a href="users.php">TRANSFER MONEY</a></li>
