@@ -49,7 +49,7 @@ nav ul li a{
  
 </style>
 </head>
-<body>
+<body style="background-color: cornflowerblue;">
 <div style="font-family: 'Gabriela', serif;   font-size: 40px;
     text-align: center;
     margin: 20px;
@@ -102,7 +102,7 @@ if($num> 0){
     echo '<form method ="post" action = "Details.php">';
     echo "<td>" . $row["id"]. "</td><td>" . $row["Name"] . "</td>
     <td>" . $row["Email Id"] . "</td><td>" . $row["Gender"] . "</td><td>" . $row["Balance"] . "</td>";
-    echo "<td ><a href='Details.php?user={$row["Name"]}&message=no' type='button' name='user'  id='users1' ><span>SEND NOW</span></a></td>";
+    echo "<td ><a href='Details.php?user={$row["Name"]}&message=no' type='button' name='user'  id='users1' ><span>Send Now</span></a></td>";
     echo "</tr>";
 }
 echo "</table>";
@@ -111,7 +111,7 @@ echo "</table>";
  </section>
         <nav id="sideNav">
             <ul>
-                <li><a href="main.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="users.php">OUR CUSTOMERS</a></li>
                 <li><a href="history.php">TRANSACTION HISTORY</a></li>
                 <li><a href="users.php">TRANSFER MONEY</a></li>
